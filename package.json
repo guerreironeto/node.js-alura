@@ -1,16 +1,29 @@
 {
   "name": "alura-node",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": { 
+  "type": "module",
+  "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guerreironeto/node.js-alura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guerreironeto/node.js-alura/issues"
+  },
+  "homepage": "https://github.com/guerreironeto/node.js-alura#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.3"
   }
 }
